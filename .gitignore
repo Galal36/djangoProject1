@@ -1,0 +1,28 @@
+# Virtual environment
+.venv/
+venv/
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Django secrets
+*.env
+*.env.local
+settings/local.py
+
+# Database
+*.sqlite3
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.log
+*.pot
+
+# Static files (if collected)
+/static/
+
+# macOS files
+.DS_Store
